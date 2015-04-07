@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Utils</string>
+
+    <string name="no_data">No data</string>
+    <string name="error_view_oops">Oops</string>
+    <string name="error_view_retry">Tap to retry</string>
+</resources>

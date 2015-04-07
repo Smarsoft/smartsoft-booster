@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ScrimInsetsView">
+        <attr name="insetForeground" format="reference|color" />
+    </declare-styleable>
+
+    <declare-styleable name="ErrorView">
+        <attr name="ev_errorTitle" format="string" />
+        <attr name="ev_errorTitleColor" format="color" />
+        <attr name="ev_errorSubtitle" format="string" />
+        <attr name="ev_errorSubtitleColor" format="color" />
+        <attr name="ev_errorImage" format="reference" />
+        <attr name="ev_showTitle" format="boolean" />
+        <attr name="ev_showSubtitle" format="boolean" />
+        <attr name="ev_showRetryButton" format="boolean" />
+        <attr name="ev_retryButtonBackground" format="reference" />
+        <attr name="ev_retryButtonTextColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="FloatLabelLayout">
+        <attr name="floatLabelTextAppearance" format="reference" />
+        <attr name="floatLabelPaddingLeft" format="reference|dimension" />
+        <attr name="floatLabelPaddingRight" format="reference|dimension" />
+        <attr name="floatLabelPaddingTop" format="reference|dimension" />
+        <attr name="floatLabelPaddingBottom" format="reference|dimension" />
+        <!-- The hint to display in the floating label -->
+        <attr name="floatLabelHint" format="reference|string" />
+    </declare-styleable>
+
+    <declare-styleable name="CollapsingTitleLayout">
+        <attr name="expandedMargin" format="reference|dimension" />
+        <attr name="expandedMarginStart" format="reference|dimension" />
+        <attr name="expandedMarginBottom" format="reference|dimension" />
+        <attr name="expandedMarginEnd" format="reference|dimension" />
+        <attr name="expandedTextSize" format="reference|dimension" />
+        <attr name="collapsedTextSize" format="reference|dimension" />
+        <attr name="android:textAppearance" />
+        <attr name="textSizeInterpolator" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="CollapsingTextAppearance">
+        <attr name="android:textSize" />
+        <attr name="android:textColor" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleIndicator">
+        <attr name="ci_width" format="dimension"/>
+        <attr name="ci_height" format="dimension"/>
+        <attr name="ci_margin" format="dimension"/>
+        <attr name="ci_animator" format="reference"/>
+        <attr name="ci_drawable" format="reference"/>
+    </declare-styleable>
+
+</resources>
